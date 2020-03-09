@@ -1,6 +1,18 @@
+//import { prependOnceListener } from "cluster";
+import PropTypes from "prop-types";
+
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
+			contactObj: [
+				{
+					agenda_slug: "ipince",
+					full_name: "",
+					email: "",
+					phone: "",
+					address: ""
+				}
+			]
 			//Your data structures, A.K.A Entities
 		},
 		actions: {
